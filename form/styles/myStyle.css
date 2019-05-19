@@ -1,0 +1,139 @@
+body {
+    direction: rtl;
+    
+}
+
+/*קביעת תמונת רקע ראשית */
+#container {
+    width: 1000px;
+    height: 275px;
+    margin: 0 auto;
+    background-image: url('../image/world.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+
+/*עיצוב ומיקום משפט פתיחה*/
+#startText h1 {
+    font-size: 70px;
+    font-family: Calibri;
+    padding-top: 273px;
+    padding-right: 144px;
+    color: #ce880b;
+}
+
+/*עיצוב ומיקום "זה המקום בשביך"*/
+#itmine {
+    font-size: 40px;
+    font-family: Calibri;
+    padding-top: 26px;
+    padding-right: 338px;
+}
+
+/*עיצוב ומיקום האיקונים*/
+#iconA {
+    background-image: url('../image/creativity.png');
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    margin-right: 186px;
+}
+/*עיצוב ומיקום האיקונים*/
+#iconB {
+    background-image: url('../image/class.png');
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    margin-right: 257px;
+}
+/*עיצוב ומיקום האיקונים*/
+#iconC {
+    background-image: url('../image/html.png');
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    margin-right: 289px;
+    margin-top: 80px;
+}
+/*עיצוב ומיקום המילים עיצוב הדרכה ותכנות*/
+#category {
+    display: inline-block;
+    font-size: 33px;
+    margin-top: 27PX;
+    margin-right: 194px;
+    list-style-type: none;
+    font-family: Calibri;
+}
+/*רקע עליו רשום הפרטים של טלמ*/
+#ferstSec {
+    width: 1000px;
+    height: 374px;
+    margin-top: 32px;
+    margin-bottom: 26px;
+    background: rgb(123, 170, 250);
+}
+
+#logo {
+    width: 300PX;
+    height: 150PX;
+    background-size: 100%;
+    margin-top: -13px;
+    margin-right: 346px;
+    background-image: url('../image/logo.png');
+}
+/*כותרת טלמ*/
+#tlm {
+    font-size: 50px;
+    font-family: Calibri;
+    padding-top: 40px;
+    padding-right: 252px;
+}
+/*פסקה למה להגיע לכאן*/
+#why {
+    font-size: 30px;
+    font-family: Calibri;
+    padding-top: 49px;
+    padding-right: 2px;
+    text-align: center;
+}
+/*עיצוב המשפט השאירו פרטים*/
+#Details {
+    font-size: 50px;
+    font-family: Calibri;
+    padding-top: 46px;
+    padding-right: 178px;
+    color: #d81111;
+}
+
+/*עיצוב הטופס*/
+form {
+    text-align: center;
+    font-family:Calibri;
+    font-size:14px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+input[type ='text'], input[type ='password'], textarea, select {
+    display: block;
+    margin-bottom: 18px;
+    margin-right: 415px;
+    width: 166px;
+    height: 30px;
+    font-family: Calibri;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+    width: 200px;
+    background-color: #657ba1;
+    font-family:Calibri;
+    font-size:25px;
+    padding:5px;
+}
